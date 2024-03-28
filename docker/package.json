@@ -5,11 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2"
+    "docker-links": "^1.0.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.3",
+    "node-emoji": "^2.1.3",
+    "redis": "^4.6.13"
   }
 }

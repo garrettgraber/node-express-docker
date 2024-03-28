@@ -50,5 +50,6 @@ fi
 
 if [ "$NODE_ENV" == "development" ]; then
   echo "Starting Node Express Server..."
-  npm start
+  # npm start
+  npm run dev
 fi
